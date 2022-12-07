@@ -1,2 +1,2 @@
-# premiers-awards-nominations
-Premier's Awards Nominations web app.
+# lsa-admin-build
+UI build for LSA management portal.

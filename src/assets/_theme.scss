@@ -1,0 +1,47 @@
+
+/* BCSans-regular - latin-ext_latin */
+@font-face {
+  font-family: "BC Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("BC Sans"), local("BCSans-Regular"), url("./src/assets/fonts/BCSans/BCSans-Regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* BCSans-700 - latin-ext_latin */
+@font-face {
+  font-family: "BC Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("BC Sans Bold"), local("BCSans-Bold"), url("./src/assets/fonts/BCSans/BCSans-Bold.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root {
+    --font-family: BC Sans, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    --font-family-bold: BC Sans Bold, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html, .p-component {
+    font-family: var(--font-family);
+  }
+
+  h1 {
+    font-size: 1.7em;
+    padding: 1rem;
+  }
+  p {
+    padding: 1rem;
+  }
+
+  th, b {
+    font-family: var(--font-family-bold);
+    font-weight: bold;
+  }
+  
